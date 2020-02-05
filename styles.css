@@ -1,0 +1,137 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+  margin: 0 auto;
+  position: relative;
+  width: 20rem;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url(images/bg-pattern-desktop.svg);
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(0, 36%, 70%);
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  color: hsl(0, 36%, 70%);
+  margin: 0;
+}
+
+p {
+  line-height: 25px;
+  padding: 2rem 3rem 2rem 0;
+}
+
+.mail {
+  border-radius: 12px;
+  color: hsl(0, 36%, 70%);
+  padding: 0.5rem;
+  width: 20rem;
+  height: 27px;
+  margin: 0;
+}
+
+::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+
+.soon {
+  font-weight: 900;
+  color: black;
+}
+
+.left {
+  width: 35rem;
+  justify-content: left;
+  margin: 0 auto;
+}
+
+.right {}
+
+.img {
+  margin: 0;
+}
+
+.logo {
+  margin: 3rem auto;
+  width: 10rem;
+}
+
+.container {
+  display: block;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.img1 {
+  background-image: url("images/hero-mobile.jpg");
+  display: block;
+  width: 375px;
+  height: 250px;
+  margin: auto;
+}
+
+input[type="button"] {
+  background-image: url("images/icon-arrow.svg");
+  background-color:pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-size: 20px;
+  width: 5rem;
+  height: 3rem;
+  background-position: 32px 7px;
+  margin: -20px -30px
+}
+
+input[type="button"]:hover {
+  background-color: hsl(0, 74%, 74%);
+}
+
+@media screen and (min-width: 1270px) {
+  .img1 {
+    background-image: url("images/hero-desktop.jpg");
+    width: 610px;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .container {
+    padding-top: 3rem;
+    height: 45rem;
+  }
+
+  .left {
+    width: 35rem;
+    margin-left: 9%;
+  }
+
+  .logo {
+    margin: 3rem 9% 8rem;
+  }
+
+  .text {
+    text-align: left;
+  }
+}
